@@ -13,19 +13,30 @@ class App extends Component{
     steps:[
       {
         id: uuid(),
-        title: 'stap 1',
+        title: 'Doe eieren, suiker, zout en eventueel citroenrasp in een hittebestendige kom.',
         completed: false
       },
       {
         id: uuid(),
-        title: 'stap 2',
+        title: 'Plaats de kom op een bain-marie en klop de massa tot deze ongeveer 37 °C is. Als je met je vingers voelt en het niet meer koud aanvoelt, dan is het mengsel goed.',
         completed: false
       },
       {
         id: uuid(),
-        title: 'stap 3',
+        title: 'Haal de kom van de bain-marie en klop verder tot het mengsel op kamertemperatuur is.',
         completed: false
-      }
+      },
+      {  
+        id: uuid(),
+        title: 'Zeef de bloem (en eventueel cacaopoeder) boven het mengsel en spatel dit voorzichtig door de luchtige massa heen tot er geen klontjes meer te zien zijn. Spatel de bloem heel rustig door het beslag, zodat het mooi luchtig blijft.',
+        completed: false
+      },
+      {
+        id: uuid(),
+        title: 'Het beslag is klaar om verder te verwerken. Laat het niet te lang staan, anders kan het beslag weer inzakken. Bak het biscuit op 180 °C voor zo’n 25 tot 30 minuten.',
+        completed: false
+     }
+ 
 
     ] 
   }
